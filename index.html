@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BadWords</title>
+</head>
+
+<body>
+    <!-- Metodo GET nel file greetings.php -->
+    <form method="get" action="./greetings.php">
+
+        <!-- parola -->
+        <div>
+            <label for="parola">Inserisci parola da censurare</label>
+            <input type="text" id="parola" name="parola"> <!-- invia la parola da censurare -->
+        </div>
+
+        <!-- testo -->
+        <div>
+            <label for="testo">Inserisci il testo</label>
+            <textarea name="testo" id="testo"></textarea> <!-- invia il testo -->
+            <button type="submit">invia</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
